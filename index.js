@@ -1072,7 +1072,7 @@ var createScene = function () {
 
         //set delete fence image and text
         deleteFenceOn(activeFence);
-        delete fence;
+        // delete fence
         deleteFencePart.onclick = () => {
           if (activeFence > 0) {
             delFenFun(activeFence);
