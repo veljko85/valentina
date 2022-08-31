@@ -1661,7 +1661,6 @@ var createScene = function () {
           1.2
         );
       }
-      console.log(befePfostenSize);
       //SET NEW FENCE SAME POST SIZE AS THE OTHER
       if (befePfostenSize == 1) {
         rightPost.scaling.z = 1.2;
